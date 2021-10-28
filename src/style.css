@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(238, 237, 244);
+    font-family: Arial, sans-serif;
+}
+
+#app-container {
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.fas {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+.rotate {
+transform: rotate(90deg);
+margin-right: 15px;
+color: black;
+padding-right: 15px;
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#app-title {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
+#task-input {
+    font-size: 14px;
+    font-style: italic;
+    border: none;
+    margin-left: 15px;
+}
+
+.row {
+    border-bottom: 0.5px solid rgba(238, 238, 244, 0.5);
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.task-row {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    font-size: 14px;
+    border-bottom: 0.5px solid rgba(238, 238, 244, 0.5);
+    margin-left: -40px;
+    border-width: 120%;
+    align-items: center;
+
+}
+
+#task-list {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.task-row .tickbox {
+    margin-left: 20px;
+}
+
+.task-row .list-item {
+    margin-left: -65px;
+}
+
+
+#clear-container {
+    background-color: rgb(234, 232, 238);
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    padding-top: 13px;
+
+}
+
+#clear-container #clear-btn {
+    font-size: 14px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(171, 171, 175);
+    padding-top: 10px;
+}
