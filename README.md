@@ -3,7 +3,10 @@ A to do list web app compiled through webpack.
 
 ![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
+The list displays all tasks with a default unmarked status.
+Tasks can be marks as done.
+Clear button is used to remove done tasks.
+
 
 ## Built With
 
