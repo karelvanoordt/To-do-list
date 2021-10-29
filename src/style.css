@@ -42,6 +42,7 @@ body {
   font-style: italic;
   border: none;
   margin-left: 15px;
+  width: 100%;
 }
 
 .row {
@@ -89,4 +90,16 @@ body {
   text-decoration: none;
   color: rgb(171, 171, 175);
   padding-top: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
 }
