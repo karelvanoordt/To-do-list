@@ -30,7 +30,7 @@ To be able to run this project locally you must install webpack:
 
 - Follow the instructions adviced in [this page](https://webpack.js.org/guides/getting-started/#basic-setup)
 
-- Follow all the steps from Basic Setup to NPM Scripts
+- Follow all the steps from **Basic Setup** to **NPM Scripts**
 
 - Add a new html file using webpack following the steps [from this page](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
 
@@ -41,7 +41,7 @@ Run the nex command:
 
 - Create a /src/index.html to write the project.
 
-- Change the **webpack.config.js** code to add the HtmlWebpackPlugin on your template.
+- Change the **webpack.config.js** code to add the **HtmlWebpackPlugin** on your template.
 
 ```javascript
 plugins: [
@@ -52,8 +52,8 @@ plugins: [
 ],
 ```
 
-- Run `npm run build` to update the **/dist/index.html**.
-- Then it is time to add some style to the project:
+- Run `npm run build` to update the **/dist/index.html**. 
+- Then it is time to add some style to the project: 
 Follow the steps in [loading CSS](https://webpack.js.org/guides/asset-management/#loading-css) guide.
 Next, execute `npm run build` and check if the HTML body style has changed.
 #### Setup local dev server
